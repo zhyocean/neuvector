@@ -2,8 +2,6 @@ package share
 
 import (
 	"time"
-
-	"github.com/aws/aws-sdk-go/aws/endpoints"
 )
 
 const DefaultCVEDBName = "cvedb"
@@ -196,27 +194,6 @@ const (
 	CloudResReady   = "ready"
 	CloudResError   = "error"
 )
-
-var AwsRegionAll = []string{
-	endpoints.ApEast1RegionID,
-	endpoints.ApNortheast1RegionID,
-	endpoints.ApNortheast2RegionID,
-	endpoints.ApSouth1RegionID,
-	endpoints.ApSoutheast1RegionID,
-	endpoints.ApSoutheast2RegionID,
-	endpoints.CaCentral1RegionID,
-	endpoints.EuCentral1RegionID,
-	endpoints.EuNorth1RegionID,
-	endpoints.EuWest1RegionID,
-	endpoints.EuWest2RegionID,
-	endpoints.EuWest3RegionID,
-	endpoints.MeSouth1RegionID,
-	endpoints.SaEast1RegionID,
-	endpoints.UsEast1RegionID,
-	endpoints.UsEast2RegionID,
-	endpoints.UsWest1RegionID,
-	endpoints.UsWest2RegionID,
-}
 
 const (
 	CloudAws   = "aws_cloud"
