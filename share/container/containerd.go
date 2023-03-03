@@ -18,8 +18,8 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	log "github.com/sirupsen/logrus"
 
-	criRT "github.com/kubernetes/cri-api/pkg/apis/runtime/v1alpha2"
 	"google.golang.org/grpc"
+	criRT "k8s.io/cri-api/pkg/apis/runtime/v1alpha2"
 
 	"github.com/zhyocean/neuvector/share"
 	"github.com/zhyocean/neuvector/share/system"

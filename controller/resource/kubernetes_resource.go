@@ -17,9 +17,9 @@ import (
 	"time"
 
 	"github.com/ericchiang/k8s"
-	apiv1 "github.com/ericchiang/k8s/apis/admissionregistration/v1"
+	apiv1 "github.com/ericchiang/k8s/apis/admissionregistration/v1beta1"
 	apiv1beta1 "github.com/ericchiang/k8s/apis/admissionregistration/v1beta1"
-	apiextv1 "github.com/ericchiang/k8s/apis/apiextensions/v1"
+	apiextv1 "github.com/ericchiang/k8s/apis/apiextensions/v1beta1"
 	apiextv1b1 "github.com/ericchiang/k8s/apis/apiextensions/v1beta1"
 	corev1 "github.com/ericchiang/k8s/apis/core/v1"
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
