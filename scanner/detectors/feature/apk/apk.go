@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/scanner/common"
-	"github.com/neuvector/neuvector/scanner/detectors"
+	"github.com/zhyocean/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/detectors"
 )
 
 const apkPackageFile = "lib/apk/db/installed"

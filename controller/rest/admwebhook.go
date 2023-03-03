@@ -32,13 +32,13 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg"
-	"github.com/neuvector/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg/admission"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/scan/secrets"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg"
+	"github.com/zhyocean/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg/admission"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/scan/secrets"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const (

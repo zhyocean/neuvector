@@ -3,7 +3,7 @@ package resource
 import (
 	//	"github.com/ericchiang/k8s"
 	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
-	"github.com/neuvector/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/api"
 )
 
 const NvSecurityRuleName = "nvsecurityrules.neuvector.com"

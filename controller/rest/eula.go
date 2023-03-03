@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
 )
 
 func handlerEULAShow(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

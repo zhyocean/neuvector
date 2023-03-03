@@ -11,11 +11,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/neuvector/neuvector/agent/dp"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/utils"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/agent/dp"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type fqdnInfo struct {

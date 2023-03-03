@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	consulapi "github.com/neuvector/neuvector/share/cluster/api"
+	consulapi "github.com/zhyocean/neuvector/share/cluster/api"
 )
 
 // WatchPlan is the parsed version of a watch specification. A watch provides

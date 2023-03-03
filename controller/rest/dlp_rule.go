@@ -15,12 +15,12 @@ import (
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/controller/rpc"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/rpc"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func handlerDlpSensorList(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

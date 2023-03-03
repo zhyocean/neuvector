@@ -5,9 +5,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
 )
 
 var activePwdProfileName string = share.CLUSDefPwdProfileName

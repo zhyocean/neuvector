@@ -5,9 +5,9 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/share"
-	orchAPI "github.com/neuvector/neuvector/share/orchestration"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/share"
+	orchAPI "github.com/zhyocean/neuvector/share/orchestration"
 )
 
 type resourceCache map[string]interface{}

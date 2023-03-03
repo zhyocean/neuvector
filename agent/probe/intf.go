@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share/container"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var intfMonitorPollTimeoutLong = syscall.Timeval{5, 0}

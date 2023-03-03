@@ -22,10 +22,10 @@ import (
 	// criRT "k8s.io/kubernetes/pkg/kubelet/apis/cri/runtime/v1alpha2"
 	criRT "github.com/kubernetes/cri-api/pkg/apis/runtime/v1alpha2"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/system/sysinfo"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/system/sysinfo"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const defaultCriOSock = "/var/run/crio/crio.sock"

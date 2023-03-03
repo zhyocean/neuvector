@@ -9,14 +9,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg/admission"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/httptrace"
-	scanUtils "github.com/neuvector/neuvector/share/scan"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg/admission"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/httptrace"
+	scanUtils "github.com/zhyocean/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type ScanInterface interface {

@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
 )
 
 type AgentEnvInfo struct {

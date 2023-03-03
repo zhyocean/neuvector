@@ -6,9 +6,9 @@ import (
 
 	"github.com/codeskyblue/go-sh"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
-	sk "github.com/neuvector/neuvector/share/system/sidekick"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
+	sk "github.com/zhyocean/neuvector/share/system/sidekick"
 )
 
 func shell(cmd string) ([]byte, error) {

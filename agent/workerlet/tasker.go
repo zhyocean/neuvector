@@ -14,7 +14,7 @@ import (
 	"github.com/google/uuid"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 /////

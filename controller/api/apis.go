@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 const RESTTokenHeader string = "X-Auth-Token"

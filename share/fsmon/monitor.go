@@ -14,11 +14,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/agent/workerlet"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/osutil"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/workerlet"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/osutil"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 ////

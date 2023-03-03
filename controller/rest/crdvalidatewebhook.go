@@ -11,9 +11,9 @@ import (
 	admissionv1beta1 "k8s.io/api/admission/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func (h *nvCrdHandler) crdvalidate(ar *admissionv1beta1.AdmissionReview) {

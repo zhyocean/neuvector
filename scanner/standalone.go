@@ -13,10 +13,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/share"
-	scanUtils "github.com/neuvector/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/share"
+	scanUtils "github.com/zhyocean/neuvector/share/scan"
 )
 
 // The user must mount volume to /var/neuvector and the result will be written to the mounted folder

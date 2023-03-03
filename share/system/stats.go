@@ -3,7 +3,7 @@ package system
 import (
 	"time"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func calculateCPU(prevCPU, prevCPUSystem uint64, cpu, cpuSystem uint64) float64 {

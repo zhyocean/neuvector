@@ -11,9 +11,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func getAddrList(address string) ([]string, error) {

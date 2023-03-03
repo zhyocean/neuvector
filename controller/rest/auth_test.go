@@ -7,13 +7,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/auth"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/auth"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type passwordUser struct {

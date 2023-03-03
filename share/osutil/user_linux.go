@@ -9,8 +9,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const UserUidMin int = 1000

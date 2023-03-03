@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/osutil"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/osutil"
 )
 
 type ProcProfileBrief struct {

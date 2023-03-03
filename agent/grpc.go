@@ -10,11 +10,11 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/neuvector/neuvector/agent/workerlet"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/workerlet"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type ScanService struct {

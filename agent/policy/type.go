@@ -4,9 +4,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/neuvector/neuvector/agent/dp"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/dp"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type GroupProcPolicyCallback func(id string) (*share.CLUSProcessProfile, bool)

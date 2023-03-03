@@ -11,11 +11,11 @@ import (
 	"golang.org/x/oauth2"
 	"gopkg.in/ldap.v2"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/auth/oidc"
-	"github.com/neuvector/neuvector/share/auth/saml"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/auth/oidc"
+	"github.com/zhyocean/neuvector/share/auth/saml"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var DefaultOIDCScopes []string = []string{oidc.ScopeOpenID, "profile", "email"}

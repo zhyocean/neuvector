@@ -7,11 +7,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/system"
-	sk "github.com/neuvector/neuvector/share/system/sidekick"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/system"
+	sk "github.com/zhyocean/neuvector/share/system/sidekick"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func getHostAddrs() map[string]sk.NetIface {

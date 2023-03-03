@@ -19,15 +19,15 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/cache"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/controller/rest"
-	"github.com/neuvector/neuvector/controller/rpc"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/cache"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/rest"
+	"github.com/zhyocean/neuvector/controller/rpc"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const scanImageDataTimeout = time.Second * 45

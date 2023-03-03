@@ -5,9 +5,9 @@ import (
 	"net"
 	"strings"
 
-	"github.com/neuvector/neuvector/share/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const tcPrefMax uint = 65536

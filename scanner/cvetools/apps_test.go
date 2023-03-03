@@ -3,7 +3,7 @@ package cvetools
 import (
 	"testing"
 
-	"github.com/neuvector/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/common"
 )
 
 type versionTestCase struct {

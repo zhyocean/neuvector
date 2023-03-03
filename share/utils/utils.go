@@ -43,9 +43,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/streadway/simpleuuid"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/licenseinfo"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/licenseinfo"
 )
 
 var IPv4Loopback = net.IPv4(127, 0, 0, 1)

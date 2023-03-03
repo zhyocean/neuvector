@@ -5,11 +5,11 @@ import (
 	"net"
 	"os"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
-	"github.com/neuvector/neuvector/share/system"
-	sk "github.com/neuvector/neuvector/share/system/sidekick"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/system"
+	sk "github.com/zhyocean/neuvector/share/system/sidekick"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var ErrMethodNotSupported = errors.New("Method not supported")

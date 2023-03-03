@@ -4,10 +4,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 // a fake runtime driver

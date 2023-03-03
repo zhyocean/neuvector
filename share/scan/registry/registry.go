@@ -9,7 +9,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share/httptrace"
+	"github.com/zhyocean/neuvector/share/httptrace"
 )
 
 const (

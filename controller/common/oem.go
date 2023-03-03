@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
 )
 
 const OEMDefaultUserLocale string = "en"

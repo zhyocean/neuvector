@@ -3,8 +3,8 @@ package common
 import (
 	"sort"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var complianceMetas []api.RESTBenchMeta

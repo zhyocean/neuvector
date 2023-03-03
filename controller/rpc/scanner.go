@@ -9,9 +9,9 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
 )
 
 var scanners map[string]*share.CLUSScanner = make(map[string]*share.CLUSScanner)

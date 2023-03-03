@@ -11,9 +11,9 @@ import (
 	digest "github.com/opencontainers/go-digest"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/httptrace"
-	"github.com/neuvector/neuvector/share/scan/registry"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/httptrace"
+	"github.com/zhyocean/neuvector/share/scan/registry"
 )
 
 type RegClient struct {

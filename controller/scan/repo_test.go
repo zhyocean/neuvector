@@ -5,9 +5,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var sr1 = share.ScanResult{

@@ -22,11 +22,11 @@ import (
 	rbacv1b1 "github.com/ericchiang/k8s/apis/rbac/v1beta1"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type ValidateWebhookSvcInfo struct {

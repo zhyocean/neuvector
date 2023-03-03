@@ -14,9 +14,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const procSelfFd = "/proc/self/fd/%d"

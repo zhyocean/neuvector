@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func initKvAndCache(mockCluster *kv.MockCluster, initRules []*share.CLUSPolicyRule, initGroups []*share.CLUSGroup) {

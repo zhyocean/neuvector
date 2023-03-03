@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/kv"
 )
 
 func TestRoles(t *testing.T) {

@@ -12,10 +12,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container/dockerclient"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container/dockerclient"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const defaultDockerSocket string = "unix:///var/run/docker.sock"

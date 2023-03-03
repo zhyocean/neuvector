@@ -15,12 +15,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/scanner/common"
-	"github.com/neuvector/neuvector/scanner/cvetools"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/scan"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/cvetools"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func usage() {

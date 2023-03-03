@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 //////////////////////

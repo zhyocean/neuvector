@@ -1,7 +1,7 @@
 package scan
 
 import (
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 const gcrDefaultUsername = "_json_key"

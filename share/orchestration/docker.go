@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
-	sk "github.com/neuvector/neuvector/share/system/sidekick"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
+	sk "github.com/zhyocean/neuvector/share/system/sidekick"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 // example: Docker Trusted Registry 2.2.5 - (Replica 543ae781fcab)

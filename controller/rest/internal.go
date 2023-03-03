@@ -6,7 +6,7 @@ import (
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func handlerInternalSystem(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

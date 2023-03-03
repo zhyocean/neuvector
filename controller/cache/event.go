@@ -1,8 +1,8 @@
 package cache
 
 import (
-	"github.com/neuvector/neuvector/share/utils"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const (

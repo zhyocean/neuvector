@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	scanUtils "github.com/neuvector/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	scanUtils "github.com/zhyocean/neuvector/share/scan"
 )
 
 func TestFilterPositive(t *testing.T) {

@@ -18,9 +18,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 const (

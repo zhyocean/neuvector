@@ -10,11 +10,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/scan"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/scan"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const usageReportPeriod = time.Duration(time.Hour * 12)

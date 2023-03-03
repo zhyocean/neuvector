@@ -5,7 +5,7 @@ import (
 
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/api"
 )
 
 func TestVulnerabilityProfile(t *testing.T) {

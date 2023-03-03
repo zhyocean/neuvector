@@ -21,10 +21,10 @@ import (
 	criRT "github.com/kubernetes/cri-api/pkg/apis/runtime/v1alpha2"
 	"google.golang.org/grpc"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/system/sysinfo"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/system/sysinfo"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const defaultContainerdSock = "/run/containerd/containerd.sock"

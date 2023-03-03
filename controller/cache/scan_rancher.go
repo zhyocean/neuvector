@@ -6,7 +6,7 @@ import (
 	"github.com/coreos/clair/utils/types"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 type rancherOSCVEInfo struct {

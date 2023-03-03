@@ -1,7 +1,7 @@
 package nvbench
 
 import (
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var DockerNotScored utils.Set = utils.NewSet(

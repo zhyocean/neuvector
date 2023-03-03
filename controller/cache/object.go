@@ -17,16 +17,16 @@ import (
 	corev1 "github.com/ericchiang/k8s/apis/core/v1"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/controller/scan"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/container"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/controller/scan"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func getHostPlatform(platform, flavor string) string {

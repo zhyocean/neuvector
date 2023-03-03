@@ -11,9 +11,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/agent/workerlet"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/agent/workerlet"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 //// need to "sudo -i" is required to run these testssudo -i

@@ -9,9 +9,9 @@ import (
 	rbacv1b1 "github.com/ericchiang/k8s/apis/rbac/v1beta1"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/api"
-	orchAPI "github.com/neuvector/neuvector/share/orchestration"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/api"
+	orchAPI "github.com/zhyocean/neuvector/share/orchestration"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type k8sObjectRef struct {

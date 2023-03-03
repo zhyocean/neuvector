@@ -6,8 +6,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/agent/probe/netlink"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/probe/netlink"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const inetMonitorSocketSize uint = 1024 * 5

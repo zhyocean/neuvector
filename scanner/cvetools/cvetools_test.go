@@ -1,7 +1,7 @@
 package cvetools
 
 import (
-	"github.com/neuvector/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/scan"
 )
 
 const testTmpPath = "/tmp/scanner_test/"

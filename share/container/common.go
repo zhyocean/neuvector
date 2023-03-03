@@ -7,8 +7,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 // const defaultContainerLogPath = "/var/lib/docker/containers/%s/%s-json.log"

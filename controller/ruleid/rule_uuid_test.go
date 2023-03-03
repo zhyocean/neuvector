@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/share"
 )
 
 // UUID Version 4 (random)

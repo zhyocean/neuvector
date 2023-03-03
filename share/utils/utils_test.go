@@ -5,7 +5,7 @@ import (
 
 	"net"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func TestNormalizeForURL(t *testing.T) {

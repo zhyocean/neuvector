@@ -3,7 +3,7 @@ package graph
 import (
 	"testing"
 
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 // This is a simple test graph.

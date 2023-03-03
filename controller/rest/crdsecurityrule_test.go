@@ -3,8 +3,8 @@ package rest
 import (
 	"encoding/json"
 	"github.com/ghodss/yaml"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/share"
 	"testing"
 )
 

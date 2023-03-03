@@ -15,9 +15,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/scan"
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 const reqTemplate = "/tmp/%s_i.json"

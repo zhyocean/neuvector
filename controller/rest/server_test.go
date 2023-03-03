@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/auth"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/auth"
 )
 
 func TestServerCreate(t *testing.T) {

@@ -3,10 +3,10 @@ package cvetools
 import (
 	"sync"
 
-	"github.com/neuvector/neuvector/scanner/common"
-	"github.com/neuvector/neuvector/scanner/detectors"
-	"github.com/neuvector/neuvector/share/scan"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/detectors"
+	"github.com/zhyocean/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type updateData struct {

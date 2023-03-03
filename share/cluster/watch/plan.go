@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"time"
 
-	consulapi "github.com/neuvector/neuvector/share/cluster/api"
 	log "github.com/sirupsen/logrus"
+	consulapi "github.com/zhyocean/neuvector/share/cluster/api"
 )
 
 const (

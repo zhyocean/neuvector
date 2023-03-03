@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func (o *RESTLicenseInfo) GetDomain(f share.GetAccessObjectFunc) ([]string, []string) {

@@ -3,7 +3,7 @@ package graph
 import (
 	"reflect"
 
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 type NewLinkCallback func(src, link, dst string)

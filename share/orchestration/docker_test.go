@@ -3,7 +3,7 @@ package orchestration
 import (
 	"testing"
 
-	"github.com/neuvector/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/container"
 )
 
 func TestServiceName(t *testing.T) {

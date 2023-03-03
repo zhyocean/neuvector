@@ -22,9 +22,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/scanner/common"
-	"github.com/neuvector/neuvector/scanner/detectors"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/detectors"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 // RpmFeaturesDetector implements FeaturesDetector and detects rpm packages

@@ -3,7 +3,7 @@ package watch
 import (
 	"fmt"
 
-	consulapi "github.com/neuvector/neuvector/share/cluster/api"
+	consulapi "github.com/zhyocean/neuvector/share/cluster/api"
 )
 
 // watchFactory is a function that can create a new WatchFunc

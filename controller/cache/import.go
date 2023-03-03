@@ -3,9 +3,9 @@ package cache
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
 )
 
 func PauseResumeStoreWatcher(fromCtrlerID, key string, action share.StoreWatcherAction) {

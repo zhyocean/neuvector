@@ -3,8 +3,8 @@ package orchestration
 import (
 	"strconv"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
 )
 
 /* Container labels - Rancher 1.5

@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
-	consulapi "github.com/neuvector/neuvector/share/cluster/api"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/share"
+	consulapi "github.com/zhyocean/neuvector/share/cluster/api"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const internalCertDir = "/etc/neuvector/certs/internal/"

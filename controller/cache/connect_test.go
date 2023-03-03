@@ -3,9 +3,9 @@ package cache
 import (
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/graph"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/graph"
+	"github.com/zhyocean/neuvector/share"
 )
 
 func TestGetAllEndpoints(t *testing.T) {

@@ -12,8 +12,8 @@ import (
 	"github.com/fsnotify/fsnotify"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/agent/workerlet"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/workerlet"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const hostRootMountPoint = "/proc/1/root"

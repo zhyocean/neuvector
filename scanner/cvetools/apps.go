@@ -5,10 +5,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/scanner/common"
-	"github.com/neuvector/neuvector/scanner/detectors"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/scanner/common"
+	"github.com/zhyocean/neuvector/scanner/detectors"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/scan"
 )
 
 func (cv *CveTools) DetectAppVul(path string, apps []detectors.AppFeatureVersion, namespace string) []vulFullReport {

@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/neuvector/neuvector/controller/access"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/access"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const D1 string = "d1"

@@ -13,7 +13,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netlink"
 
-	"github.com/neuvector/neuvector/share/libovsdb"
+	"github.com/zhyocean/neuvector/share/libovsdb"
 )
 
 const defaultOVSSocket string = "/var/run/openvswitch/db.sock"

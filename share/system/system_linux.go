@@ -28,9 +28,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/vishvananda/netns"
 
-	"github.com/neuvector/neuvector/share/system/ns"
-	sk "github.com/neuvector/neuvector/share/system/sidekick"
-	"github.com/neuvector/neuvector/share/system/sysinfo"
+	"github.com/zhyocean/neuvector/share/system/ns"
+	sk "github.com/zhyocean/neuvector/share/system/sidekick"
+	"github.com/zhyocean/neuvector/share/system/sysinfo"
 )
 
 const defaultHostProc string = "/proc/"

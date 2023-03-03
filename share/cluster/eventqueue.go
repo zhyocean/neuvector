@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var ErrQueueFull = errors.New("Queue full")

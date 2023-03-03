@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func TestUsageKey(t *testing.T) {

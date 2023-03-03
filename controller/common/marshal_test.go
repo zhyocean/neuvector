@@ -7,7 +7,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/neuvector/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/controller/api"
 )
 
 type MaskEmbed struct {

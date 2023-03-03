@@ -3,7 +3,7 @@ package cache
 import (
 	"testing"
 
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func TestRancherOSCVE(t *testing.T) {

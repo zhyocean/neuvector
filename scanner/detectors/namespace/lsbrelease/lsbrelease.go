@@ -19,7 +19,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/neuvector/neuvector/scanner/detectors"
+	"github.com/zhyocean/neuvector/scanner/detectors"
 )
 
 var (

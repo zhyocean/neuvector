@@ -3,8 +3,8 @@ package orchestration
 import (
 	"strings"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/container"
 )
 
 type ecs struct {

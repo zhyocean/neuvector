@@ -7,9 +7,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share/container"
-	"github.com/neuvector/neuvector/share/global"
-	orchAPI "github.com/neuvector/neuvector/share/orchestration"
+	"github.com/zhyocean/neuvector/share/container"
+	"github.com/zhyocean/neuvector/share/global"
+	orchAPI "github.com/zhyocean/neuvector/share/orchestration"
 )
 
 type swarmWatcher struct {

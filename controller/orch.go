@@ -5,12 +5,12 @@ import (
 
 	apiextv1 "github.com/ericchiang/k8s/apis/apiextensions/v1"
 	apiextv1b1 "github.com/ericchiang/k8s/apis/apiextensions/v1beta1"
-	"github.com/neuvector/neuvector/controller/resource"
-	"github.com/neuvector/neuvector/controller/rest"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/global"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/controller/resource"
+	"github.com/zhyocean/neuvector/controller/rest"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/global"
 )
 
 type orchConnInterface interface {

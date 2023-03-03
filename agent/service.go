@@ -22,11 +22,11 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 
-	"github.com/neuvector/neuvector/agent/dp"
-	"github.com/neuvector/neuvector/agent/pipe"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/system"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/agent/dp"
+	"github.com/zhyocean/neuvector/agent/pipe"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/system"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 const sessionListLimitMax int = 1024

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neuvector/neuvector/agent/policy"
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/agent/policy"
+	"github.com/zhyocean/neuvector/share"
 )
 
 type appSample struct {

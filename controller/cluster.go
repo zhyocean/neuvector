@@ -10,14 +10,14 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/cache"
-	"github.com/neuvector/neuvector/controller/kv"
-	"github.com/neuvector/neuvector/controller/rest"
-	"github.com/neuvector/neuvector/controller/scan"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/cluster"
-	"github.com/neuvector/neuvector/share/global"
-	"github.com/neuvector/neuvector/share/system"
+	"github.com/zhyocean/neuvector/controller/cache"
+	"github.com/zhyocean/neuvector/controller/kv"
+	"github.com/zhyocean/neuvector/controller/rest"
+	"github.com/zhyocean/neuvector/controller/scan"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/cluster"
+	"github.com/zhyocean/neuvector/share/global"
+	"github.com/zhyocean/neuvector/share/system"
 )
 
 var ClusterConnected bool = false

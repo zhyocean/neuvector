@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/neuvector/neuvector/share"
+	"github.com/zhyocean/neuvector/share"
 )
 
 const WalkerApp = "pathWalker"

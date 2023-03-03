@@ -7,10 +7,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
-	//orchAPI "github.com/neuvector/neuvector/share/orchestration"
-	"github.com/neuvector/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
+	//orchAPI "github.com/zhyocean/neuvector/share/orchestration"
+	"github.com/zhyocean/neuvector/controller/api"
 )
 
 func preTestDebug() {

@@ -13,11 +13,11 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/neuvector/neuvector/controller/common"
-	"github.com/neuvector/neuvector/controller/rpc"
-	"github.com/neuvector/neuvector/share"
-	scanUtils "github.com/neuvector/neuvector/share/scan"
-	"github.com/neuvector/neuvector/share/utils"
+	"github.com/zhyocean/neuvector/controller/common"
+	"github.com/zhyocean/neuvector/controller/rpc"
+	"github.com/zhyocean/neuvector/share"
+	scanUtils "github.com/zhyocean/neuvector/share/scan"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 var jfrogRepoRegexp = regexp.MustCompile(`<a href="([a-zA-Z0-9\-\._]+)\/*">([a-zA-Z0-9\-\._]+)\/*</a>`)

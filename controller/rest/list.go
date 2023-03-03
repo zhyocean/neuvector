@@ -7,10 +7,10 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/neuvector/neuvector/controller/api"
-	"github.com/neuvector/neuvector/share"
-	"github.com/neuvector/neuvector/share/utils"
 	log "github.com/sirupsen/logrus"
+	"github.com/zhyocean/neuvector/controller/api"
+	"github.com/zhyocean/neuvector/share"
+	"github.com/zhyocean/neuvector/share/utils"
 )
 
 func handlerApplicationList(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
