@@ -16,8 +16,8 @@ import (
 	"sync"
 	"time"
 
+	"ericchiang/k8s"
 	log "github.com/sirupsen/logrus"
-	"neuvector/ericchiang/k8s"
 	apiv1 "neuvector/ericchiang/k8s/apis/admissionregistration/v1"
 	apiv1beta1 "neuvector/ericchiang/k8s/apis/admissionregistration/v1beta1"
 	apiextv1 "neuvector/ericchiang/k8s/apis/apiextensions/v1"
