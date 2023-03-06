@@ -1,16 +1,15 @@
 package nvcrd
 
 import (
-	"github.com/ericchiang/k8s"
-	apiextv1 "github.com/ericchiang/k8s/apis/apiextensions/v1"
-	apiextv1b1 "github.com/ericchiang/k8s/apis/apiextensions/v1beta1"
-	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
 	log "github.com/sirupsen/logrus"
+	"neuvector/ericchiang/k8s"
+	apiextv1 "neuvector/ericchiang/k8s/apis/apiextensions/v1"
+	apiextv1b1 "neuvector/ericchiang/k8s/apis/apiextensions/v1beta1"
+	metav1 "neuvector/ericchiang/k8s/apis/meta/v1"
 
 	"encoding/json"
 	"github.com/zhyocean/neuvector/controller/common"
 	"github.com/zhyocean/neuvector/controller/kv"
-	"github.com/zhyocean/neuvector/controller/nvk8sapi/nvvalidatewebhookcfg"
 	"github.com/zhyocean/neuvector/controller/resource"
 	"github.com/zhyocean/neuvector/controller/rest"
 	"github.com/zhyocean/neuvector/share"

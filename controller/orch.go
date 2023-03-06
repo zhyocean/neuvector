@@ -3,14 +3,14 @@ package main
 import (
 	"encoding/json"
 
-	apiextv1 "github.com/ericchiang/k8s/apis/apiextensions/v1"
-	apiextv1b1 "github.com/ericchiang/k8s/apis/apiextensions/v1beta1"
 	log "github.com/sirupsen/logrus"
 	"github.com/zhyocean/neuvector/controller/resource"
 	"github.com/zhyocean/neuvector/controller/rest"
 	"github.com/zhyocean/neuvector/share"
 	"github.com/zhyocean/neuvector/share/cluster"
 	"github.com/zhyocean/neuvector/share/global"
+	apiextv1 "neuvector/ericchiang/k8s/apis/apiextensions/v1"
+	apiextv1b1 "neuvector/ericchiang/k8s/apis/apiextensions/v1beta1"
 )
 
 type orchConnInterface interface {
