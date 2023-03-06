@@ -11,8 +11,8 @@ import (
 	"io/ioutil"
 
 	"github.com/golang/protobuf/proto"
-	metav1 "neuvector/ericchiang/k8s/apis/meta/v1"
-	"neuvector/ericchiang/k8s/runtime"
+	metav1 "github.com/zhyocean/neuvector/ericchiang/k8s/apis/meta/v1"
+	"github.com/zhyocean/neuvector/ericchiang/k8s/runtime"
 )
 
 // Decode events from a watch stream.

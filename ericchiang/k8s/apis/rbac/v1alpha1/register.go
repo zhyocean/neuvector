@@ -1,6 +1,6 @@
 package v1alpha1
 
-import "neuvector/ericchiang/k8s"
+import "github.com/zhyocean/neuvector/ericchiang/k8s"
 
 func init() {
 	k8s.Register("rbac.authorization.k8s.io", "v1alpha1", "clusterroles", false, &ClusterRole{})

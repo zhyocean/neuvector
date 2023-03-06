@@ -7,7 +7,7 @@ import (
 	"fmt"
 
 	"github.com/golang/protobuf/proto"
-	"neuvector/ericchiang/k8s/runtime"
+	"github.com/zhyocean/neuvector/ericchiang/k8s/runtime"
 )
 
 const (

@@ -1,6 +1,6 @@
 package v1
 
-import "neuvector/ericchiang/k8s"
+import "github.com/zhyocean/neuvector/ericchiang/k8s"
 
 func init() {
 	k8s.Register("", "v1", "componentstatuses", false, &ComponentStatus{})

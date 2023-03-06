@@ -1,6 +1,6 @@
 package v1beta1
 
-import "neuvector/ericchiang/k8s"
+import "github.com/zhyocean/neuvector/ericchiang/k8s"
 
 func init() {
 	k8s.Register("admissionregistration.k8s.io", "v1beta1", "mutatingwebhookconfigurations", false, &MutatingWebhookConfiguration{})

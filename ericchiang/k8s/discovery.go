@@ -4,7 +4,7 @@ import (
 	"context"
 	"path"
 
-	metav1 "neuvector/ericchiang/k8s/apis/meta/v1"
+	metav1 "github.com/zhyocean/neuvector/ericchiang/k8s/apis/meta/v1"
 )
 
 type Version struct {

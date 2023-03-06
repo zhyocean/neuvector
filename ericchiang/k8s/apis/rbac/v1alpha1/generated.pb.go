@@ -26,9 +26,9 @@ package v1alpha1
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import k8s_io_apimachinery_pkg_apis_meta_v1 "neuvector/ericchiang/k8s/apis/meta/v1"
-import _ "neuvector/ericchiang/k8s/runtime"
-import _ "neuvector/ericchiang/k8s/runtime/schema"
+import k8s_io_apimachinery_pkg_apis_meta_v1 "github.com/zhyocean/neuvector/ericchiang/k8s/apis/meta/v1"
+import _ "github.com/zhyocean/neuvector/ericchiang/k8s/runtime"
+import _ "github.com/zhyocean/neuvector/ericchiang/k8s/runtime/schema"
 
 import io "io"
 
