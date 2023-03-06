@@ -14,8 +14,8 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/julienschmidt/httprouter"
 	log "github.com/sirupsen/logrus"
+	cmetav1 "github.com/zhyocean/k8s/apis/meta/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	cmetav1 "neuvector/ericchiang/k8s/apis/meta/v1"
 
 	"github.com/zhyocean/neuvector/controller/access"
 	"github.com/zhyocean/neuvector/controller/api"

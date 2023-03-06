@@ -8,13 +8,13 @@ import (
 	"os"
 	"strings"
 
+	metav1 "github.com/zhyocean/k8s/apis/meta/v1"
 	"github.com/zhyocean/neuvector/share"
 	"github.com/zhyocean/neuvector/share/container"
 	orchAPI "github.com/zhyocean/neuvector/share/orchestration"
 	"github.com/zhyocean/neuvector/share/system"
 	"github.com/zhyocean/neuvector/share/utils"
 	"k8s.io/apimachinery/pkg/runtime"
-	metav1 "neuvector/ericchiang/k8s/apis/meta/v1"
 
 	log "github.com/sirupsen/logrus"
 )

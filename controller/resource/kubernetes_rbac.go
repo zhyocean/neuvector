@@ -5,9 +5,9 @@ import (
 	"reflect"
 
 	log "github.com/sirupsen/logrus"
-	"neuvector/ericchiang/k8s"
-	rbacv1 "neuvector/ericchiang/k8s/apis/rbac/v1"
-	rbacv1b1 "neuvector/ericchiang/k8s/apis/rbac/v1beta1"
+	"github.com/zhyocean/k8s"
+	rbacv1 "github.com/zhyocean/k8s/apis/rbac/v1"
+	rbacv1b1 "github.com/zhyocean/k8s/apis/rbac/v1beta1"
 
 	"github.com/zhyocean/neuvector/controller/api"
 	orchAPI "github.com/zhyocean/neuvector/share/orchestration"

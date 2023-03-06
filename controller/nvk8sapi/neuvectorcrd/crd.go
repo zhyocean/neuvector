@@ -2,10 +2,10 @@ package nvcrd
 
 import (
 	log "github.com/sirupsen/logrus"
-	"neuvector/ericchiang/k8s"
-	apiextv1 "neuvector/ericchiang/k8s/apis/apiextensions/v1"
-	apiextv1b1 "neuvector/ericchiang/k8s/apis/apiextensions/v1beta1"
-	metav1 "neuvector/ericchiang/k8s/apis/meta/v1"
+	"github.com/zhyocean/k8s"
+	apiextv1 "github.com/zhyocean/k8s/apis/apiextensions/v1"
+	apiextv1b1 "github.com/zhyocean/k8s/apis/apiextensions/v1beta1"
+	metav1 "github.com/zhyocean/k8s/apis/meta/v1"
 
 	"encoding/json"
 	"github.com/zhyocean/neuvector/controller/common"

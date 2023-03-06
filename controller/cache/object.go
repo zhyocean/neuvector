@@ -14,8 +14,8 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"neuvector/ericchiang/k8s"
-	corev1 "neuvector/ericchiang/k8s/apis/core/v1"
+	"github.com/zhyocean/k8s"
+	corev1 "github.com/zhyocean/k8s/apis/core/v1"
 
 	"github.com/zhyocean/neuvector/controller/api"
 	"github.com/zhyocean/neuvector/controller/common"
