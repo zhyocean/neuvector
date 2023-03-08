@@ -1549,6 +1549,7 @@ type CLUSRegistryConfig struct {
 	GitlabPrivateToken string                `json:"gitlab_private_token,cloak"`
 	IBMCloudAccount    string                `json:"ibmcloud_account"`
 	IBMCloudTokenURL   string                `json:"ibmcloud_token_url"`
+	HarborVersion      string                `json:"harbor_version"`
 }
 
 type CLUSImage struct {

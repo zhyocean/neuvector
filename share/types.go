@@ -121,6 +121,8 @@ const (
 	RegistryTypeRedhat           = "Red Hat Public Registry"
 	RegistryTypeSonatypeNexus    = "Sonatype Nexus"
 	RegistryTypeGitlab           = "Gitlab"
+	RegistryTypeHarbor           = "Harbor Registry"
+	RegistryTypeSWR              = "SoftWare Repository"
 	RegistryTypeIBMCloud         = "IBM Cloud Container Registry"
 )
 
