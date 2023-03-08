@@ -1518,6 +1518,12 @@ type CLUSAWSAccountKey struct {
 	Region          string `json:"region"`
 }
 
+type CLUSSWRAccountKey struct {
+	AccessKey       string `json:"access_key"`
+	SecretAccessKey string `json:"secret_access_key"`
+	Region          string `json:"region"`
+}
+
 type CLUSGCRKey struct {
 	JsonKey string `json:"json_key,cloak"`
 }
@@ -1550,6 +1556,7 @@ type CLUSRegistryConfig struct {
 	IBMCloudAccount    string                `json:"ibmcloud_account"`
 	IBMCloudTokenURL   string                `json:"ibmcloud_token_url"`
 	HarborVersion      string                `json:"harbor_version"`
+	SwrKey             *CLUSSWRAccountKey    `json:"swr_key"`
 }
 
 type CLUSImage struct {
